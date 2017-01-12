@@ -1,0 +1,17 @@
+questions.txt
+
+Computer Science 50
+Problem Set 4
+
+1. stdint.h is a c standard library which allows the user to create custumized integer data types using typedef of different widths or bits sizes.
+2. u stands for unsigned. The number defines the the width or size in bits of the data type.
+3. BYTE- 1byte   DWORD- 4 bytes    LONG- 4 bytes   WORD- 2bytes
+4. In ASCII the the first two bytes of BMP file is BM
+5. bfsize is the size of the BMP file. bisize is the size of the second header.
+6. If the biHeight is negative then the bitmap is top down and its origin is in the upper left hand corner
+7. biBitCount
+8. It may return null if the file was not been able to be created for some reasons like not having the permission to do so or the lack of memory, etc.
+9. The third argument denotes the number of times the block of particular size will be read. In our case the third argument is 1 because we want to read only one pixel at a time.
+10. 3
+11. fseek sets the position in the file from where the file will be read.
+12 SEEK_CUR is the present location of the pointer in the file from where the file is being read.
